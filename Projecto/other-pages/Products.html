@@ -37,6 +37,8 @@
         }
 
         .display-boxes {
+            animation: aparecer 3s forwards;
+
             border: 2px solid #FFD700;
             border-radius: 12.5px;
             box-shadow: 0px 0px 6px #ffd90049;
@@ -74,6 +76,17 @@
             width: 100%;
         }
         
+        @keyframes aparecer {
+            from {
+                transform: translateX(-300px);
+                opacity: 0;
+            }
+            
+            to {
+                opacity: 1;
+            }
+        }
+
     </style>
 </head>
 <body>
