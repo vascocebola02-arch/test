@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FXWHYTE ABOUT US</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        header {
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin: 20px;
+        }
+
+        .about-Us {
+            flex: 1 1;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            height: 90vh;
+        }
+
+        .about_us_sub_boxes {
+            animation: gradient 4s ease-in-out alternate infinite;
+            background: linear-gradient(-45deg, black, rgb(63, 63, 63), rgb(114, 114, 114), rgb(24, 23, 23)) no-repeat;
+            background-size: 300% 300%;
+            margin: auto;
+            margin: 10px;
+            height: 100px;
+            width: 320px;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        @keyframes gradient {
+       from {
+            background-position: 0 50%;
+        }
+
+        to {
+            background-position: 100% 50%;
+        }
+}
+    </style>
+</head>
+<body>
+    <main class="about-Us">
+        <h1>Founders</h1>
+        <div class="about_us_sub_boxes">
+            <div><img src="../imagens/slogan.jpeg" alt=""></div>
+            <div class="information">
+                <div class="info-name">
+                    <strong>Nome: </strong> Adalberto Senpai <br>
+                    <strong>Cargo: </strong> Fundador
+                </div>
+            </div>
+        </div>
+        <div class="about_us_sub_boxes">
+            <div><img src="../imagens/slogan.jpeg" alt=""></div>
+            <div class="information">
+                <div class="info-name">
+                    <strong>Nome: </strong> Clovisberto Araujo <br>
+                    <strong>Cargo: </strong> CEO
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
