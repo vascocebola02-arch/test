@@ -1,29 +1,28 @@
+:root {
+     --dark: #444143;
+     --gray: #A19E9D;
+     --light: #E2E2DA;
+     --white: #FFFFFF;
+     --accent: #DCE8E7;
+}
+
+
 @media screen and (min-width: 768px) {
-    
+    nav {
+    width: 100%;
 
-    .menu {
-        flex-flow: row;
-    }
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid green;
 
-    .sub-menu {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        width: 50%;
+    background-color: var(--dark);
+}
 
-        background-color: black;
-    }
-    
-    .links {
-        color: #FFD700;
+.links {
+    padding: 0px 15px;
+    color: white;
+    background-color: var(--dark);
+    border-bottom: 1px solid;
+}
 
-        flex: 1 1 100px;
-        padding-bottom: 1px;
-        text-align: center;
-    }
-
-    .links:hover {
-        background-color: black;
-        border-bottom: 1px solid #FFD700;
-    }
 }
