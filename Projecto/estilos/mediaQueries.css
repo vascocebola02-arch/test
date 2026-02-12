@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+    
+
+    .menu {
+        flex-flow: row;
+    }
+
+    .sub-menu {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        width: 50%;
+
+        background-color: black;
+    }
+    
+    .links {
+        color: #FFD700;
+
+        flex: 1 1 100px;
+        padding-bottom: 1px;
+        text-align: center;
+    }
+
+    .links:hover {
+        background-color: black;
+        border-bottom: 1px solid #FFD700;
+    }
+}
