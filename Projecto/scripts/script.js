@@ -1,3 +1,5 @@
+alert("Este Web Site está em desenvolvimento, atualizaçōes futuras virão, mas enquanto isso aproveite-o :)");
+
 let logoIcon = document.getElementById("logo-icon");
 logoIcon.addEventListener("click", () => {
     let subMenu = document.getElementById("sub-menu");
@@ -9,3 +11,11 @@ logoIcon.addEventListener("click", () => {
         logoIcon.innerText = "menu"
     }
 })
+
+
+
+
+
+//Parte da animacao
+
+let 

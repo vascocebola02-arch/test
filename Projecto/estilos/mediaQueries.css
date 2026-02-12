@@ -15,13 +15,19 @@
     flex-flow: row nowrap;
 
     background-color: var(--dark);
-}
+    }
 
 .links {
     padding: 0px 15px;
     color: white;
     background-color: var(--dark);
     border-bottom: 1px solid;
+}
+
+.main-hero {
+    background-image: url(../imagens/ChatGPT\ Image\ 12\ de\ fev.\ de\ 2026\,\ 19_59_53.png);
+    background-position: center right;
+    background-size: cover;
 }
 
 }
