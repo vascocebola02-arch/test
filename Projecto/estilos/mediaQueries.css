@@ -18,10 +18,17 @@
     }
 
 .links {
-    padding: 0px 15px;
-    color: white;
     background-color: var(--dark);
-    border-bottom: 1px solid;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    /*padding: 0px 15px;*/
+}
+
+.links:hover {
+    background-color: #e2e2dab7;
+    color: #444143;
 }
 
 .main-hero {

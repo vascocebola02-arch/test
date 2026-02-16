@@ -1,4 +1,4 @@
-alert("Este Web Site está em desenvolvimento, atualizaçōes futuras virão, mas enquanto isso aproveite-o :)");
+//alert("Este Web Site está em desenvolvimento, atualizaçōes futuras virão, mas enquanto isso aproveite-o :)");
 
 let logoIcon = document.getElementById("logo-icon");
 logoIcon.addEventListener("click", () => {
