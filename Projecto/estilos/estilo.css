@@ -52,6 +52,11 @@ header {
 span {
     display: block;
     margin: 0px 10px;
+
+}
+
+span#roda:hover {
+    animation: girar 2s ease-in-out;
 }
 
 
@@ -293,5 +298,12 @@ footer > p , footer > .contacts-icons > p{
 @keyframes aumentar {
     to {
         width: 100%;
+    }
+}
+
+
+@keyframes girar {
+    to {
+        transform: rotate(720deg);
     }
 }
