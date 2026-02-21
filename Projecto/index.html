@@ -16,13 +16,16 @@
     <link rel="stylesheet" href="estilos/mediaQueries.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="header-title">
             <h1>FXWHYTE BC</h1>
-            <span class="material-symbols-outlined" id="logo-icon">menu</span>
+            <div>
+                <span class="material-symbols-outlined" id="logo-icon">menu</span>
+                <span class="material-symbols-outlined" onclick="mudarCorDeFundo()">autorenew</span>
+            </div>
         </div>
         <div id="sub-menu">
-            <nav>
+            <nav id="menuNav">
                 <a href="" target="_blank" class="links">Home</a>
                 <a href="" target="_blank" class="links">About Us</a>
                 <a href="" target="_blank" class="links">Services</a>
@@ -31,18 +34,18 @@
     </header>
 
     <main>
-        <section class="main-hero">
+        <section class="main-hero" id="main-hero">
             <div class="text-hero">
                 <h1>FXWHYTE BUSINESS COMPANY</h1>
                 <p>Soluções Inteligentes para impulsionar o seu negócio</p>
             </div>
             <div class="button-hero">
-                <a href=""><button>Fale Connosco</button></a>
-                <a href="other-pages/services.html"><button>Serviços</button></a>
+                <a href=""><button class="buttons" id="button1">Fale Connosco</button></a>
+                <a href="other-pages/services.html"><button class="buttons" id="button2">Serviços</button></a>
             </div>
         </section>
         <hr>
-        <section class="quem-somos">
+        <section class="quem-somos" id="quem-somos">
             <div>
                 <h3>Quem Somos</h3>
                 <p>
@@ -68,13 +71,13 @@
     <div class="exposicao-grid">
 
         <div class="card">
-            <img src="imagens/slogan.jpeg" alt="">
+            <img src="" alt="">
             <h3>Captação de Clientes</h3>
             <p>Conectamos o seu negócio a clientes qualificados e prontos para comprar.</p>
         </div>
 
         <div class="card">
-            <img src="imagens/imagens-hero.jpg" alt="">
+            <img src="imagens/pexels-ketut-subiyanto-4308102.jpg" alt="">
             <h3>Consultoria Estratégica</h3>
             <p>Analisamos o seu negócio e criamos um plano para aumentar resultados.</p>
         </div>

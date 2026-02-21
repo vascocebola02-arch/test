@@ -51,6 +51,7 @@ header {
 
 span {
     display: block;
+    margin: 0px 10px;
 }
 
 
@@ -148,7 +149,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .quem-somos > div {
