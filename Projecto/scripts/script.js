@@ -28,6 +28,13 @@ function mudarCorDeFundo() {
     let mainHero = document.querySelector("#main-hero");
     let menuNav = document.getElementById("#menuNav");
 
+    if(
+        header.style.backgroundColor === "#444143"
+    ) {
+        header.style.backgroundColor = "#E2E2DA"
+    }
+
+    /*
     let botao1 = document.getElementById("button1")
     let botao2 = document.getElementById("button2")
     
@@ -44,5 +51,5 @@ function mudarCorDeFundo() {
     botao2.style.color = "#444143"
 
     menuNav.style.backgroundColor = '#444143';
-    //Buttons
+    //Buttons*/
 }
