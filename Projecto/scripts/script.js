@@ -10,17 +10,16 @@
 */ 
 
 
-let logoIcon = document.getElementById("logo-icon");
-logoIcon.addEventListener("click", () => {
+function aparecer(){
     let subMenu = document.getElementById("sub-menu");
-    if (subMenu.style.display === "none") {
-        subMenu.style.display = "flex";
-        logoIcon.innerText = "close"
-    } else {
+    if (subMenu.style.display == "flex") {
         subMenu.style.display = "none";
         logoIcon.innerText = "menu"
+    } else {
+        subMenu.style.display = "flex";
+        logoIcon.innerText = "close"
     }
-})
+}
 
 function mudarCorDeFundo() {
     //Sections e Header

@@ -1,4 +1,4 @@
-:root {
+:root{
      --dark: #444143;
      --gray: #A19E9D;
      --light: #E2E2DA;
@@ -6,35 +6,59 @@
      --accent: #DCE8E7;
 }
 
+/*:root {
+    --azul: rgb(2,24,89);
+    --azulGasto: rgb(93,108,140);
+    --azulMaisGasto: rgb(129, 141, 166);
+    --azulEscuro: rgb(5,42,89);
+    --brancoFalso: rgb(242, 236, 233);
+}*/
+
 
 @media screen and (min-width: 768px) {
+
     nav {
-    width: 100%;
+        width: 100%;
 
-    display: flex;
-    flex-flow: row nowrap;
+        display: flex;
+        flex-flow: row nowrap;
 
-    background-color: var(--dark);
+        background-color: var(--light);
     }
 
-.links {
-    background-color: var(--dark);
-    color: white;
-    padding: 5px 5px;
-    border-radius: 10px;
-    transition-duration: 0.2s;
-    /*padding: 0px 15px;*/
-}
+    .links {
+        color: var(--dark);
+        padding: 5px 5px;
+        border-radius: 0px;
+        transition-duration: 0.2s;
+        padding: 5px 15px;
 
-.links:hover {
-    background-color: #e2e2dab7;
-    color: #444143;
-}
+        border-bottom: 2px solid var(--dark) ;
+    }
 
-.main-hero {
-    background-image: url(../imagens/ChatGPT\ Image\ 12\ de\ fev.\ de\ 2026\,\ 19_59_53.png);
-    background-position: center right;
-    background-size: cover;
-}
+    .links:hover {
+        background-color: #e2e2dab7;
+        color: var(--gray);
+        border-color: #A19E9D;
+    }
 
+    .main-hero {
+        /*background-image: url(../imagens/ChatGPT\ Image\ 12\ de\ fev.\ de\ 2026\,\ 19_59_53.png);*/
+        background-image: linear-gradient();
+        background-position: center right;
+        background-size: cover;
+        align-items: center;
+    }
+
+    .text-hero > h1 {
+        font-size: 50px;
+    }
+
+    .sub-contacts {
+        width: 20%;
+    }
+
+    section {
+        padding: 60px;
+    }
 }
