@@ -61,4 +61,21 @@
     section {
         padding: 60px;
     }
+
+    .exposicao-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        border-radius: 0px;
+
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
 }
